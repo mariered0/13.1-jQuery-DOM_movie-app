@@ -1,0 +1,20 @@
+#container-for-all {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#form {
+    position: absolute;
+}
+
+#content-container{
+    position: absolute;
+    width: 10%;
+    top: 180px;
+}
+
+#content{
+    position: absolute;
+}

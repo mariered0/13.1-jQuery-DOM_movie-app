@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div id="container-for-all">
+        <div id="form">
+            <h1>Movie App</h1>
+            <hr>
+            <form action="" name="input-form">
+                <div class="form">
+                    <label for="title-input">Title: </label>
+                    <input type="text" name="title-input" id="title" placeholder="Enter a movie title">
+                </div>
+                <div class="form">
+                    <label for="rating-input">Rating: </label>
+                    <input type="text" name="rating-input" id="rating" placeholder="Enter rating">
+                </div>
+                <div class="form">
+                    <input type="submit" value="Submit" name="input-form" id="btn">
+                </div>
+            </form>
+        </div>
+        <div id="content-container">
+            <div id="content"></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
